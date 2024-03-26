@@ -1,2 +1,2 @@
 # Solidity-Encode-Bootcamp
-Code from the bootcamp
+This is the projects made during the Encode Bootcamp
