@@ -4,15 +4,15 @@
 Installation: Run npm install to install necessary dependencies.
 Create a .env file at the root with:
 
-PRIVATE_KEY=yourPrivateKey for the deployer/chairperson's private key.
+PRIVATE_KEY= your PrivateKey for the deployer.
 
-ALCHEMY_API_KEY=yourAlchemyApiKey for network access via Alchemy.
+ALCHEMY_API_KEY= your AlchemyApiKey for network access via Alchemy.
 
 # Security: Never commit your .env file to version control.
 
 # Deploying the Ballot Contract
 Compile the contract: npx hardhat compile.
-Deploy by running: npx ts-node --files ./scripts/DeployWithViem.ts "Proposal 1" "Proposal 2".
+Deploy by running: npx ts-node --files ./scripts/DeployWithViem.ts "Chocolate" "Pear" "Peach" "Strawberry". (example of propositions)
 
 # Giving Voting Rights
 To grant voting rights, execute: npx ts-node --files ./scripts/GiveRightToVote.ts <contractAddress> <voterAddress>.
