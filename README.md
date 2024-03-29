@@ -1,2 +1,2 @@
-# Solidity-Encode-Bootcamp
+# Ballot contract interaction guide
 
