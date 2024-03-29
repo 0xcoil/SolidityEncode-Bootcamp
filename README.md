@@ -5,9 +5,9 @@
 
 2. Create a .env file at the root with:
 
-PRIVATE_KEY= your PrivateKey for the deployer.
+  ``` PRIVATE_KEY= your PrivateKey ``` for the deployer.
 
-ALCHEMY_API_KEY= your AlchemyApiKey for network access via Alchemy.
+  ``` ALCHEMY_API_KEY= your AlchemyApiKey ``` for network access via Alchemy.
 
 3. Security: Never commit your .env file to version control.
 
